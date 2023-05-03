@@ -32,7 +32,7 @@ class _TimePickerWidget01State extends State<TimePickerWidget01> {
                   });
                 }
               },
-              child: const Text('Chose TTime'),
+              child: const Text('Chose Time'),
             )
           ],
         ),
