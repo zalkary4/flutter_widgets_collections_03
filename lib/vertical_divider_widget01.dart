@@ -33,12 +33,12 @@ class _VerticalDividerWidget01State extends State<VerticalDividerWidget01> {
               borderRadius: BorderRadius.circular(10),
               color: Colors.green
             ),
-          // )),
-          // Expanded(child: Container( 
-          //   decoration: BoxDecoration(
-          //     borderRadius: BorderRadius.circular(10),
-          //     color: Colors.green
-          //   ),
+          )),
+          Expanded(child: Container( 
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              color: Colors.green
+            ),
           ))
         ],
       ),
