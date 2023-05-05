@@ -1,0 +1,32 @@
+import 'package:flutter/material.dart';
+
+class WillPopScopeWidget extends StatefulWidget {
+  const WillPopScopeWidget({Key? key}) : super(key: key);
+
+  @override
+  _WillPopScopeWidgetState createState() => _WillPopScopeWidgetState();
+}
+
+class _WillPopScopeWidgetState extends State<WillPopScopeWidget> {
+  @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: ElevatedButton(
+        onPressed: (){
+          Navigator.of(context).push(MaterialPageRoute(builder: (context){
+            return NextPage();
+          }),)
+        },
+        child: child,
+      ),
+    );
+  }
+}
+
+class NextPage extends StatelessWidget {
+  NextPage({Key? key}):super(key: key);
+  @override
+  Widget build(BuildContext context){
+    return;
+  }
+}

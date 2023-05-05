@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets_collections_main_3/vertical_divider_widget01.dart';
-import 'package:flutter_widgets_collections_main_3/wrap_widget01.dart';
+import 'package:flutter_widgets_collections_main_3/will_pop_scope_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,8 +16,8 @@ class MyApp extends StatelessWidget {
       //   colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       //   useMaterial3: true,
       // ),
-      home: VerticalDividerWidget01(
-      
+      home: Scaffold(
+        body: WillPopScopeWidget(),
       ),
     );
   }
