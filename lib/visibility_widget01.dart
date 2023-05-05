@@ -12,7 +12,7 @@ class _VisibilityWidget01State extends State<VisibilityWidget01> {
   @override
   Widget build(BuildContext context) {
     return Center(
-      child: Column(
+      child: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
           TextButton(
