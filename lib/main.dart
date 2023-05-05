@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widgets_collections_main_3/will_pop_scope_widget.dart';
+import 'package:flutter_widgets_collections_main_3/visibility_widget01.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       //   useMaterial3: true,
       // ),
       home: Scaffold(
-        body: WillPopScopeWidget(),
+        body: VisibilityWidget01(),
       ),
     );
   }
