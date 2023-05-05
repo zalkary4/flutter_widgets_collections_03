@@ -38,7 +38,17 @@ class NextPage extends StatelessWidget {
       child: Scaffold(
         body: Center(),
         backgroundColor: Colors.blue,
-        appBar: AppBar(title: Text('Next Page')),
+        appBar: AppBar(
+          title: Text('Next Page'),
+          leading: IconButton(
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+            icon: Icon(
+              Icons.arrow_back_ios_new_outlined,
+            ),
+          ),
+        ),
       ),
     );
   }
