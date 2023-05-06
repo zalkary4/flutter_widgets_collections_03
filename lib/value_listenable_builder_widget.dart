@@ -17,7 +17,6 @@ class ValueListenableBuilderWidget extends StatelessWidget {
             },
             icon: Icon(Icons.add),
           ),
-         
           SizedBox(height: 30),
           ValueListenableBuilder(
             valueListenable: number,
@@ -27,9 +26,7 @@ class ValueListenableBuilderWidget extends StatelessWidget {
                 style: TextStyle(fontSize: 30),
               );
             },
-            
-          ),  
-          
+          ),
           SizedBox(height: 30),
           IconButton(
             onPressed: () {
