@@ -13,6 +13,7 @@ Stream<int> generateStream = (() async* {
   yield 1;
   await Future<void>.delayed(const Duration(seconds: 1));
   yield 2;
+  throw 'An error occured';
   await Future<void>.delayed(const Duration(seconds: 1));
   yield 3;
 })();
