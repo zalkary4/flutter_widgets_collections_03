@@ -20,6 +20,24 @@ Stream<int> generateStream = (() async* {
 class _StreamBuilderWidget02State extends State<StreamBuilderWidget02> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+      child: StreamBuilder(
+        stream: generateStream,
+        initialData: 0,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return CircularProgressIndicator.adaptive();
+          }
+          if (snapshot.hasError) {
+            return Text('Error');
+          } else {
+            return Text(
+              snapshot.data.toString(),
+              style: TextStyle(fontSize: 40),
+            );
+          }
+        },
+      ),
+    );
   }
 }
