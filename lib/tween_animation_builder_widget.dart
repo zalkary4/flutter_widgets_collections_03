@@ -26,7 +26,7 @@ class _TweenAnimationBuilderWidgetState
                 targetvalue = targetvalue == 100 ? 250 : 100;
               });
             },
-            icon: Icon(Icons.flutter_dash),
+            icon: const Icon(Icons.flutter_dash),
           );
         },
       ),
