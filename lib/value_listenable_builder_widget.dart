@@ -13,7 +13,7 @@ class ValueListenableBuilderWidget extends StatelessWidget {
         children: [
           IconButton(
             onPressed: () {
-              number.value + 1;
+              number.value += 1;
             },
             icon: Icon(Icons.add),
           ),
