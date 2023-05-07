@@ -12,6 +12,7 @@ class _ToggleButtonsWidgetState extends State<ToggleButtonsWidget> {
     false,
     false,
     false,
+    false,
   ];
   @override
   Widget build(BuildContext context) {
@@ -21,6 +22,7 @@ class _ToggleButtonsWidgetState extends State<ToggleButtonsWidget> {
           Icon(Icons.home),
           Icon(Icons.settings),
           Icon(Icons.person),
+          Icon(Icons.alarm),
         ],
         isSelected: isSelected,
         onPressed: (int index) {
