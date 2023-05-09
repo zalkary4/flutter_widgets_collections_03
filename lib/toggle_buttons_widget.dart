@@ -21,6 +21,7 @@ class _ToggleButtonsWidgetState extends State<ToggleButtonsWidget> {
           Icon(Icons.home),
           Icon(Icons.settings),
           Icon(Icons.person),
+          Icon(Icons.person),
         ],
         isSelected: isSelected,
         onPressed: (int index) {
