@@ -13,7 +13,7 @@ class _TransformWidgetState extends State<TransformWidget> {
   Widget build(BuildContext context) {
     return Center(
       child: Transform(
-        transform: Matrix4.rotationZ(pi * 1 / 7),
+        transform: Matrix4.rotationZ(pi * 1 / 3),
         alignment: Alignment.center,
         child: FlutterLogo(size: 300),
       ),
