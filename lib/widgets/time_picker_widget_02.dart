@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 
 class TimePickerWidget01 extends StatefulWidget {
@@ -32,7 +30,7 @@ class _TimePickerWidget01State extends State<TimePickerWidget01> {
                   });
                 }
               },
-              child: const Text('Chose Time'),
+              child: const Text('Chose Tiime'),
             )
           ],
         ),
