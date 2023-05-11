@@ -16,7 +16,7 @@ class _TweenAnimationBuilderWidgetState
     return Center(
       child: TweenAnimationBuilder(
         tween: Tween<double>(begin: 0, end: targetvalue),
-        duration: Duration(milliseconds: 500),
+        duration: Duration(milliseconds: 600),
         builder: (BuildContext context, double size, Widget? child) {
           return IconButton(
             iconSize: size,
