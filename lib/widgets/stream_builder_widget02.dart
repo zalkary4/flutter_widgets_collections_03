@@ -34,7 +34,7 @@ class _StreamBuilderWidget02State extends State<StreamBuilderWidget02> {
           } else {
             return Text(
               snapshot.data.toString(),
-              style: TextStyle(fontSize: 40),
+              style: TextStyle(fontSize: 50),
             );
           }
         },
