@@ -23,7 +23,7 @@ class ValueListenableBuilderWidget extends StatelessWidget {
             builder: (BuildContext context, int value, Widget? child) {
               return Text(
                 '$value',
-                style: TextStyle(fontSize: 30),
+                style: TextStyle(fontSize: 40),
               );
             },
           ),
