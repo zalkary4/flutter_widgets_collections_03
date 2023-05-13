@@ -12,7 +12,7 @@ class _VerticalDividerWidget01State extends State<VerticalDividerWidget01> {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(60),
+      padding: EdgeInsets.all(50),
       child: Row(
         children: [
           Expanded(
