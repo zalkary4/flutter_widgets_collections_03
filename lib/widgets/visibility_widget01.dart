@@ -27,7 +27,7 @@ class _VisibilityWidget01State extends State<VisibilityWidget01> {
           SizedBox(height: 30),
           Visibility(
             visible: isVisible,
-            child: const FlutterLogo(size: 50),
+            child: const FlutterLogo(size: 60),
           ),
         ],
       ),
