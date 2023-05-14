@@ -39,7 +39,7 @@ class NextPage extends StatelessWidget {
         body: Center(),
         backgroundColor: Colors.blue,
         appBar: AppBar(
-          title: Text('Next Pageee'),
+          title: Text('Next Page'),
           leading: IconButton(
             onPressed: () {
               Navigator.of(context).pop();
