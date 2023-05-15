@@ -36,7 +36,11 @@ class _BlockSemantikWidgetState extends State<BlockSemantikWidget> {
                     children: [
                       Text('This is a card'),
                       TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          setState(() {
+                            isShow = false;
+                          });
+                        },
                         child: Text('close'),
                       )
                     ],
