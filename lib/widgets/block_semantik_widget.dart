@@ -26,6 +26,13 @@ class _BlockSemantikWidgetState extends State<BlockSemantikWidget> {
               },
               child: Text('Click'),
             ),
+            if (isShow)
+              Card(
+                color: Colors.orangeAccent,
+                child: SizedBox(
+                  width: 200,
+                ),
+              )
           ],
         ),
       ),
