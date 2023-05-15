@@ -27,23 +27,26 @@ class _BlockSemantikWidgetState extends State<BlockSemantikWidget> {
               child: Text('Click'),
             ),
             if (isShow)
-              Card(
-                color: Colors.orangeAccent,
-                child: SizedBox(
-                  width: 200,
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      Text('This is a card'),
-                      TextButton(
-                        onPressed: () {
-                          setState(() {
-                            isShow = false;
-                          });
-                        },
-                        child: Text('close'),
-                      )
-                    ],
+              BlockSemantics(
+                blocking: isShow,
+                child: Card(
+                  color: Colors.orangeAccent,
+                  child: SizedBox(
+                    width: 200,
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        Text('This is a card'),
+                        TextButton(
+                          onPressed: () {
+                            setState(() {
+                              isShow = false;
+                            });
+                          },
+                          child: Text('Close'),
+                        )
+                      ],
+                    ),
                   ),
                 ),
               )
