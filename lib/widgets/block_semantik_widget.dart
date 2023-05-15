@@ -31,6 +31,16 @@ class _BlockSemantikWidgetState extends State<BlockSemantikWidget> {
                 color: Colors.orangeAccent,
                 child: SizedBox(
                   width: 200,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text('This is a card'),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text('close'),
+                      )
+                    ],
+                  ),
                 ),
               )
           ],
