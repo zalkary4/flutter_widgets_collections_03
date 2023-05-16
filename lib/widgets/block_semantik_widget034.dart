@@ -24,7 +24,7 @@ class _BlockSemantikWidgetState extends State<BlockSemantikWidget> {
                   isShow = true;
                 });
               },
-              child: Text('Clickk'),
+              child: Text('Click'),
             ),
             if (isShow)
               BlockSemantics(
