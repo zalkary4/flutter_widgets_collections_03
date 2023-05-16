@@ -43,7 +43,7 @@ class _BlockSemantikWidgetState extends State<BlockSemantikWidget> {
                               isShow = false;
                             });
                           },
-                          child: Text('Closee'),
+                          child: Text('Close'),
                         )
                       ],
                     ),
