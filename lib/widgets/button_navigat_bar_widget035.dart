@@ -9,6 +9,8 @@ class ButtonNavigatBarWidget035 extends StatefulWidget {
 }
 
 class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
+  int _currentIndex = 0;
+  // List body=
   @override
   Widget build(BuildContext context) {
     return Container();
