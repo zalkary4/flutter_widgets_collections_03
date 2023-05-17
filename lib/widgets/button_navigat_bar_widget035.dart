@@ -17,6 +17,13 @@ class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
   ];
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(
+        child: body[_currentIndex],
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        currentIndex: _currentIndex,
+      ),
+    );
   }
 }
