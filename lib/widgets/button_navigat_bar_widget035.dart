@@ -28,11 +28,11 @@ class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
             icon: Icon(Icons.home),
           ),
           BottomNavigationBarItem(
-            label: 'Home',
+            label: 'Menu',
             icon: Icon(Icons.menu),
           ),
           BottomNavigationBarItem(
-            label: 'Home',
+            label: 'Profile',
             icon: Icon(Icons.person),
           ),
         ],
