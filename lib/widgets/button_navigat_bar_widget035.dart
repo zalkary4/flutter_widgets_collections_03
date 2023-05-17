@@ -24,6 +24,7 @@ class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
       bottomNavigationBar: BottomNavigationBar(
         items: [],
         currentIndex: _currentIndex,
+        onTap: (int newIndex) {},
       ),
     );
   }
