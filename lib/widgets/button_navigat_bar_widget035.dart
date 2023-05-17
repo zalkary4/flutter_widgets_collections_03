@@ -10,7 +10,7 @@ class ButtonNavigatBarWidget035 extends StatefulWidget {
 
 class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
   int _currentIndex = 0;
-  List body = [
+  List body = const [
     Icon(Icons.home),
     Icon(Icons.menu),
     Icon(Icons.person),
@@ -22,7 +22,7 @@ class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
         child: body[_currentIndex],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: [
+        items: const [
           BottomNavigationBarItem(
             label: 'Home',
             icon: Icon(Icons.home),
