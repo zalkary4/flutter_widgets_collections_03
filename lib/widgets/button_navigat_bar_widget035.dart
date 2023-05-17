@@ -26,7 +26,15 @@ class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
           BottomNavigationBarItem(
             label: 'Home',
             icon: Icon(Icons.home),
-          )
+          ),
+          BottomNavigationBarItem(
+            label: 'Home',
+            icon: Icon(Icons.menu),
+          ),
+          BottomNavigationBarItem(
+            label: 'Home',
+            icon: Icon(Icons.person),
+          ),
         ],
         currentIndex: _currentIndex,
         onTap: (int newIndex) {
