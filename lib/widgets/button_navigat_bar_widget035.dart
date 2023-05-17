@@ -22,9 +22,18 @@ class _ButtonNavigatBarWidget035State extends State<ButtonNavigatBarWidget035> {
         child: body[_currentIndex],
       ),
       bottomNavigationBar: BottomNavigationBar(
-        items: [],
+        items: [
+          BottomNavigationBarItem(
+            label: 'Home',
+            icon: Icon(Icons.home),
+          )
+        ],
         currentIndex: _currentIndex,
-        onTap: (int newIndex) {},
+        onTap: (int newIndex) {
+          setState(() {
+            _currentIndex = newIndex;
+          });
+        },
       ),
     );
   }
