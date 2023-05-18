@@ -14,6 +14,19 @@ class _CarWidget039State extends State<CarWidget039> {
       child: Card(
         elevation: 20,
         color: Colors.orangeAccent,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            SizedBox(
+              height: 8,
+            ),
+            Text('This is a Flutter card'),
+            TextButton(
+              onPressed: () {},
+              child: Text('Press'),
+            ),
+          ],
+        ),
       ),
     );
   }
