@@ -20,7 +20,7 @@ myWidget() => Builder(
       builder: (BuildContext context) {
         return Text(
           'Text with Theme',
-          style: Theme.of(context).textTheme.displayLarge,
+          style: Theme.of(context).textTheme.displaySmall,
         );
       },
     );
