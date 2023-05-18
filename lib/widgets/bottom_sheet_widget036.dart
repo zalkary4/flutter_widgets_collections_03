@@ -10,6 +10,11 @@ class BottomSheetWidget036 extends StatefulWidget {
 class _BottomSheetWidget036State extends State<BottomSheetWidget036> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center( child: ElevatedButton(onPressed: (){
+      showModalBottomSheet(context: context,
+       builder: (BuildContext (context) {
+         return SizedBox()
+       },),)
+    }, child: child),);
   }
 }
