@@ -17,9 +17,7 @@ class _CarWidget039State extends State<CarWidget039> {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
-            SizedBox(
-              height: 8,
-            ),
+            SizedBox(height: 8),
             Text('This is a Flutter card'),
             TextButton(
               onPressed: () {},
