@@ -12,7 +12,14 @@ class _CenterWidget040State extends State<CenterWidget040> {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
-      children: [],
+      children: [
+        Container(
+          color: Colors.orangeAccent,
+          child: Center(
+            child: Text('Flutter Mapp'),
+          ),
+        )
+      ],
     );
   }
 }
