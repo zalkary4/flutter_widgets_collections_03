@@ -16,7 +16,7 @@ class _CenterWidget040State extends State<CenterWidget040> {
         Container(
           color: Colors.orangeAccent,
           child: Center(
-            heightFactor: 15,
+            heightFactor: 25,
             child: Text('Flutter Mapp'),
           ),
         )
