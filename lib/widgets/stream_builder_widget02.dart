@@ -30,7 +30,7 @@ class _StreamBuilderWidget02State extends State<StreamBuilderWidget02> {
             return CircularProgressIndicator.adaptive();
           }
           if (snapshot.hasError) {
-            return Text('Error');
+            return Text('Errorrr');
           } else {
             return Text(
               snapshot.data.toString(),
