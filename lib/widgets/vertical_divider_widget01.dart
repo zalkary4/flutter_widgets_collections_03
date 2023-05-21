@@ -18,7 +18,7 @@ class _VerticalDividerWidget01State extends State<VerticalDividerWidget01> {
           Expanded(
             child: Container(
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15),
+                borderRadius: BorderRadius.circular(20),
                 color: Colors.orangeAccent,
               ),
             ),
