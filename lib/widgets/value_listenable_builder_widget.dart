@@ -27,7 +27,7 @@ class ValueListenableBuilderWidget extends StatelessWidget {
               );
             },
           ),
-          SizedBox(height: 40),
+          SizedBox(height: 50),
           IconButton(
             onPressed: () {
               number.value -= 1;
